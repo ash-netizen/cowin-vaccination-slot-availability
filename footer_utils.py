@@ -26,7 +26,7 @@ def layout(*args):
         bottom=0,
         margin=px(0, 0, 0, 0),
         width=percent(100),
-        color="black", 
+        color="blue", 
         text_align="center",
         height="auto",
         opacity=1
@@ -56,8 +56,8 @@ def footer(inp_views):
     myargs = [
         "Page Visits - ", str(inp_views),
         br(),
-        "Created by ",
-        link("https://github.com/bhattbhavesh91", "Bhavesh Bhatt"),
+        "Developed By",
+        link("https://www.linkedin.com/in/ashish-pandey-26091991/", "Ashish Pandey"),
         "     ",
         
     ]
