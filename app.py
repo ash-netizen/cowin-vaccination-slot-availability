@@ -14,7 +14,7 @@ from footer_utils import image, link, layout, footer
 st.set_page_config(layout='wide',
                    initial_sidebar_state='collapsed',
                    page_icon="https://www.cowin.gov.in/favicon.ico",
-                   page_title="CoWIN Vaccination Slot Availability")
+                   page_title="Covid Vaccination Slot Availability")
 
 @st.cache(allow_output_mutation=True, suppress_st_warning=True)
 def load_mapping():
